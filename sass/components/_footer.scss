@@ -1,0 +1,136 @@
+.page-footer {
+  background-color: #2f303a;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  display: flex;
+}
+
+.colortext-footer {
+  color: var(--fourth-color);
+}
+
+.container-footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.logo-second {
+  font-family: var(--font-family-second);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+  display: inline-block;
+  margin-bottom: var(--specific-ident-third);
+}
+
+.address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--fourth-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-link:hover,
+:focus {
+  color: var(--second-color);
+}
+
+.mail-tel-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail-tel-link:hover,
+:focus {
+  color: var(--second-color);
+}
+
+.address-list-item {
+  margin-bottom: 9px;
+}
+
+.address-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.join {
+  margin-left: 70px;
+}
+
+.social-list-second {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+}
+
+.social-link-second {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--fourth-color);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link-second:hover {
+  background-color: var(--second-color);
+}
+
+.social-link-second:focus {
+  background-color: var(--second-color);
+}
+
+.join-icon {
+  fill: currentColor;
+}
+
+.follow {
+  margin-left: 93px;
+}
+
+.email-label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--fourth-color);
+}
+
+.email-input {
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+  width: 358px;
+  height: 50px;
+}
+
+.email-input::placeholder {
+  padding-left: 16px;
+}
+
+.telegram-icon {
+  position: absolute;
+  right: 28px;
+  top: 13px;
+  fill: var(--fourth-color);
+}

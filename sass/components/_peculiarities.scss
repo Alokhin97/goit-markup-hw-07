@@ -1,0 +1,32 @@
+.peculiarities .container {
+  display: flex;
+}
+
+.peculiarities-list {
+  display: flex;
+}
+
+.peculiarities-list-item:not(:first-child) {
+  margin-left: var(--specific-ident-fifth);
+}
+
+.peculiarities {
+  padding: var(--specific-ident) 0;
+}
+
+.peculiarities-text {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+
+.link-peculiarities {
+  background-color: var(--eighth-color);
+  height: 120px;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  align-items: center;
+}
