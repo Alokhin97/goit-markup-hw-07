@@ -1,23 +1,23 @@
 .activity {
   padding-bottom: var(--specific-ident);
-}
 
-.activity__list {
-  display: flex;
-}
+  &__list {
+    display: flex;
+  }
 
-.activity__item {
-  position: relative;
-}
+  &__item {
+    position: relative;
+  }
 
-.activity__item:not(:first-child) {
-  margin-left: var(--specific-ident-fifth);
-}
+  &__item:not(:first-child) {
+    margin-left: var(--specific-ident-fifth);
+  }
 
-.activity__thumb {
-  position: relative;
-}
+  &__thumb {
+    position: relative;
+  }
 
-.activity__img {
-  display: block;
+  &__img {
+    display: block;
+  }
 }
