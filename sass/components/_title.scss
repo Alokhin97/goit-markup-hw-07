@@ -1,4 +1,4 @@
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -10,7 +10,7 @@
   max-width: 696px;
 }
 
-.peculiarities-title {
+.peculiarities__paragraph-title {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -19,7 +19,7 @@
   margin-bottom: 10px;
 }
 
-.activity-title {
+.activity__title {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -27,7 +27,7 @@
   margin-bottom: var(--specific-ident-second);
 }
 
-.team-title {
+.team__title {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -35,7 +35,7 @@
   margin-bottom: var(--specific-ident-second);
 }
 
-.team-secondary-title {
+.team__name-title {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -53,7 +53,7 @@
   color: var(--main-color);
 }
 
-.title-clients {
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -64,7 +64,7 @@
   padding-left: 453px;
 }
 
-.title-join {
+.page-footer__title {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -73,7 +73,7 @@
   margin-bottom: 20px;
 }
 
-.activity-thumb > .activity-title-second {
+.activity__thumb > .activity__card-title {
   position: absolute;
   left: 0;
   bottom: 0;

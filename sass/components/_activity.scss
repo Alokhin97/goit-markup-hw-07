@@ -2,22 +2,22 @@
   padding-bottom: var(--specific-ident);
 }
 
-.activity-list {
+.activity__list {
   display: flex;
 }
 
-.activity-list-item {
+.activity__item {
   position: relative;
 }
 
-.activity-list-item:not(:first-child) {
+.activity__item:not(:first-child) {
   margin-left: var(--specific-ident-fifth);
 }
 
-.activity-thumb {
+.activity__thumb {
   position: relative;
 }
 
-.activity-img {
+.activity__img {
   display: block;
 }

@@ -28,12 +28,12 @@
   color: var(--second-color);
 }
 
-.header-kontakt-list {
+.contakts {
   display: flex;
   margin-left: auto;
 }
 
-.header-kontakt-link {
+.contakts__link {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -48,7 +48,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-kontakt-link:hover,
+.contakts__link:hover,
 :focus {
   stroke: var(--second-color);
   color: var(--second-color);
@@ -58,7 +58,7 @@
   margin-left: var(--specific-ident-second);
 }
 
-.kontakt-icon {
+.contakts__icon {
   margin-right: 10px;
   fill: currentColor;
   stroke: currentColor;
@@ -108,6 +108,10 @@
   padding-bottom: 25px;
 }
 
-.kontakt-list-item:not(:first-child) {
+.contakts__item:not(:first-child) {
   margin-left: var(--specific-ident-second);
+}
+
+.colortext-logo {
+  color: var(--fifth-color);
 }

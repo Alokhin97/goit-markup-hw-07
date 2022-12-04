@@ -2,11 +2,11 @@
   display: flex;
 }
 
-.peculiarities-list {
+.peculiarities__list {
   display: flex;
 }
 
-.peculiarities-list-item:not(:first-child) {
+.peculiarities__item:not(:first-child) {
   margin-left: var(--specific-ident-fifth);
 }
 
@@ -14,14 +14,14 @@
   padding: var(--specific-ident) 0;
 }
 
-.peculiarities-text {
+.peculiarities__text {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--third-color);
 }
 
-.link-peculiarities {
+.peculiarities__link {
   background-color: var(--eighth-color);
   height: 120px;
   width: 270px;
