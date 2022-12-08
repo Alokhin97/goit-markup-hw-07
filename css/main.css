@@ -374,8 +374,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contakts__link:hover,
-.contakts :focus {
+.contakts__link:hover, .contakts__link:focus {
   stroke: var(--second-color);
   color: var(--second-color);
 }
@@ -711,8 +710,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.page-footer__link:hover,
-.page-footer :focus {
+.page-footer__link:hover, .page-footer__link:focus {
   color: var(--second-color);
 }
 .page-footer__mail-tel-link {
